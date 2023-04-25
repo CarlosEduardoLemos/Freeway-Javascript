@@ -23,7 +23,7 @@ O código-fonte está dividido em três arquivos principais:
 
 ## Como contribuir
 
-Este projeto é apenas um exercício para fins educacionais e não está aberto a contribuições externas. Caso você queira utilizar o código como base para um projeto próprio, fique à vontade para clonar este repositório e adaptar o código como desejar.
+Este projeto é apenas um exercício para fins educacionais e está aberto a contribuições externas. Caso você queira utilizar o código como base para um projeto próprio, fique à vontade para clonar este repositório e adaptar o código como desejar.
 
 ## Licença
 
