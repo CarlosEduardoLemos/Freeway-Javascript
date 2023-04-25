@@ -1,3 +1,5 @@
+//Imagens do jogo
+
 let imagemDaEstrada;
 let imagemDoAtor;
 let imagemCarro;
