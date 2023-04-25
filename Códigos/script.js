@@ -1,18 +1,9 @@
-let imagemDaEstrada;
-let imagemDoAtor;
-let imagemCarro;
-
 //Carro
 let xCarro = 600;
 
 //Ator
 let yAtor = 366;
 
-function preLoad(){
-    imagemDaEstrada = loadImage("imagens/estrada.png");
-    imagemDoAtor = loadImage("imagens/ator-1.png");
-    imagemCarro = loadImage("Imagens/carro-1.png");
-}
 
 function setup(){
     createCanvas(500,400);
