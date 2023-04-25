@@ -18,6 +18,19 @@ function setup(){
 function draw(){
     background(imagemDaEstrada);
     mostraAtor();
+    mostraCarro();
+    movimentaCarro();
+}
+
+function mostraAtor(){
+    image(imagemDoAtor, 100, 366, 30, 30);
+}
+
+function mostraCarro(){
     image(imagemCarro, xCarro, 40, 50, 40);
+}
+
+function movimentaCarro(){
+    
 }
 
