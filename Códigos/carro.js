@@ -1,35 +1,27 @@
-//Carro 1
-let xCarro = 600;
-let yCarro = 40;
-
-// Carro 2
-let xCarro2 = 600;
-let yCarro2 = 96;
-
-//Carro 3
-let xCarro3 = 600;
-let yCarro3 = 150;
+let yCarros = [40, 96, 150];
+let xCarros = [600, 600, 600];
+let velcidadeCarros = [2, 5, 3.5];
 
 function mostraCarro(){
-    image(imagemCarro, xCarro, yCarro, 50, 40);
-    image(imagemCarro2, xCarro2, yCarro2, 50, 40);
-    image(imagemCarro3, xCarro3, yCarro3, 50, 40);
+    image(imagemCarro, xCarros[0], yCarros[0], 50, 40);
+    image(imagemCarro2, xCarros[1], yCarros[1], 50, 40);
+    image(imagemCarro3, xCarros[2], yCarros[2], 50, 40);
 }
 
 function movimentaCarro(){
-    xCarro -= 2;
-    xCarro2 -= 5;
-    xCarro3 -= 3.5;
+    xCarros[0] -= velcidadeCarros[0];
+    xCarros[1] -= velcidadeCarros[1];
+    xCarros[2] -= velcidadeCarros[2];
 }
 
 function voltaPosicaoInicialCarro(){
-    if(xCarro < -50){
-        xCarro = 600
+    if(xCarros[0] < -50){
+        xCarros[0] = 600
     }
-    if(xCarro2 < -50){
-        xCarro2 = 600
+    if(xCarros[1] < -50){
+        xCarros[1] = 600
     }
-    if(xCarro3 < -50){
-        xCarro3 = 600
+    if(xCarros[2] < -50){
+        xCarros[2] = 600
     }
 }
