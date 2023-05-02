@@ -19,12 +19,12 @@ function movimentaAtor(){
     for(let i=0; i < imagemCarros.length; i++){
         colisao = collideRectCircle(xCarros[i], yCarros[i], comprimentoCarro, alturaCarro, xAtor, yAtor, 15)
         if(colisao){
-            colidiu();
+            voltaAtorPosicaoInicial();
         }
     }
 }
 
-function colidiu(){
+function voltaAtorPosicaoInicial(){
     yAtor = 366;
 }
 
@@ -33,4 +33,11 @@ function incluiPontos(){
     textSize(25);
     fill(color(255, 240, 60));
     text(meusPontos, width/5, 27);
+}
+
+function marcaPonto(){
+    if(yAtor < 15){
+        meusPontos +=1;
+        voltaAtorPosicaoInicial();
+    }
 }

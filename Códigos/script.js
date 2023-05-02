@@ -10,4 +10,5 @@ function draw(){
     mostraAtor();
     voltaPosicaoInicialCarro();
     incluiPontos();
+    marcaPonto();
 }
