@@ -9,7 +9,7 @@ Este é o README para o projeto Mini-Game Freeway, um jogo estilo Freeway desenv
 | :rocket: URL         | https://carloseduardolemos.github.io/Freeway-Javascript/
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://raw.githubusercontent.com/SeuUsuario/projeto-mini-game-freeway/main/imagens/mini-game-freeway.png#vitrinedev)
+![](https://raw.githubusercontent.com/CarlosEduardoLemos/Freeway-Javascript/main/imagens/freeway.png#vitrinedev)
 
 ## Detalhes do projeto
 
