@@ -1,30 +1,32 @@
-# Freeway-Javascript
+# Mini-Game Freeway
 
-# Lógica de programação: laços e listas com JavaScript - Freeway Mini-Game
+Este é o README para o projeto Mini-Game Freeway, um jogo estilo Freeway desenvolvido utilizando apenas HTML e JavaScript.
 
-Este repositório contém o código-fonte de um mini-game desenvolvido durante o curso "Lógica de programação: laços e listas com JavaScript" da plataforma Alura. O jogo é baseado no clássico Freeway, no qual o jogador deve atravessar uma rua movimentada sem ser atropelado pelos carros.
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Mini-Game Freeway**
+| :label: Tecnologias | HTML, JavaScript
+| :rocket: URL         | https://carloseduardolemos.github.io/Freeway-Javascript/
 
-## Instruções para jogar
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://raw.githubusercontent.com/SeuUsuario/projeto-mini-game-freeway/main/imagens/mini-game-freeway.png#vitrinedev)
 
-1. Abra o arquivo `index.html` em um navegador web compatível com JavaScript.
-2. Clique no botão "Iniciar jogo".
-3. Use as setas do teclado para mover o personagem para cima e para baixo.
-4. Desvie dos carros e tente chegar do outro lado da rua.
+## Detalhes do projeto
 
-## Detalhes da implementação
+O Mini-Game Freeway é um jogo clássico desenvolvido com HTML e JavaScript. O objetivo do jogo é controlar um personagem, desviando dos carros que se movem horizontalmente na tela, e alcançar o outro lado sem colidir com eles.
 
-O mini-game foi implementado utilizando JavaScript puro, HTML e CSS. Foram utilizados laços de repetição e listas para criar a lógica do movimento dos carros e do personagem.
+O jogo foi implementado utilizando HTML para criar a estrutura básica da página e JavaScript para a lógica do jogo. O movimento dos carros, a movimentação do personagem e a detecção de colisões foram programados com JavaScript puro.
 
-O código-fonte está dividido em três arquivos principais:
+Durante o desenvolvimento deste projeto, foram aplicados conceitos de manipulação do DOM com JavaScript, como a criação de elementos HTML dinamicamente, a atualização de estilos e a manipulação de eventos do teclado. Além disso, foram utilizadas técnicas de animação e temporização para criar a sensação de movimento dos carros.
 
-- `index.html`: arquivo HTML que contém a estrutura da página e os elementos gráficos do jogo.
-- `script.js`: arquivo JavaScript que contém a lógica do jogo e as funções que manipulam os elementos da página.
-- `style.css`: arquivo CSS que contém os estilos visuais do jogo.
+Os próximos passos para o projeto incluem a adição de recursos adicionais, como pontuação, níveis de dificuldade, aumento da velocidade dos carros conforme o jogador progride e efeitos sonoros para aumentar a imersão no jogo.
 
-## Como contribuir
+Se você é fã de jogos retrô e deseja relembrar o clássico Freeway, experimente o projeto [aqui](https://carloseduardolemos.github.io/Freeway-Javascript/) e divirta-se tentando atravessar a rua sem colidir com os carros!
 
-Este projeto é apenas um exercício para fins educacionais e está aberto a contribuições externas. Caso você queira utilizar o código como base para um projeto próprio, fique à vontade para clonar este repositório e adaptar o código como desejar.
+## Contribuição
+
+Se você deseja contribuir para este projeto, sinta-se à vontade para abrir uma issue no repositório ou enviar um pull request com suas sugestões e melhorias. Agradeço antecipadamente todas as contribuições e ideias para aprimorar ainda mais o Mini-Game Freeway.
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
+Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT). Sinta-se à vontade para utilizar o código e adaptá-lo às suas necessidades.
