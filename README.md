@@ -1,6 +1,6 @@
 # Mini-Game Freeway
 
-Este é o README para o projeto Mini-Game Freeway, um jogo estilo Freeway desenvolvido utilizando apenas HTML e JavaScript.
+O projeto Mini-Game Freeway, é um jogo estilo Freeway desenvolvido utilizando apenas HTML e JavaScript.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
